@@ -51,8 +51,9 @@ Add these lines
 
 #define PID_EDIT_MENU
 #define PID_AUTOTUNE_MENU
-#define PREHEAT_1_TEMP_HOTEND 205
-#define PREHEAT_1_TEMP_BED     60
+chaned names of preheats, added PLA + at 215/80 and PETG at 240/80
+#define PREHEAT_1_TEMP_HOTEND 215
+#define PREHEAT_1_TEMP_BED     80
 #define PREHEAT_1_FAN_SPEED   255 // Value from 0 to 255
 #define PREHEAT_2_FAN_SPEED   255 // Value from 0 to 255
 
